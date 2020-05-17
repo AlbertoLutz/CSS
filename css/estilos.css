@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+   background: #d2d2c1 url(../imagens/fundo.png);
+   height: 100%;
+   margin-top: 5px;
+   
+}
+
+
+header {
+   text-transform: uppercase;
+   font-family: Montserrat;
+   position: absolute;
+   transform: translateX(30%)
+   
+}
+
+img {
+    border: 5px solid rgb(146, 143, 143);
+    border-radius: 4px;   
+}
+
+.navigation {
+    width: 910px;
+    height: 50px;
+    background-color: #c5c5b2;
+    font-size: 20px;
+    color:#4b566a;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 2px 0px 15px black;
+    
+   
+}
+
+hr {
+    border: 2px solid #c5c5b2;
+    width: 700px;
+    text-align: center;
+}
+
+
+.navigation a {
+    text-decoration: none;
+    color: #4b566a;
+}
+
+.navigation a:hover {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+.sobre {
+    width: 910px;  
+    background-color: #ddd;
+    position: absolute;
+    margin-top: 470px;
+    box-sizing: border-box;
+    transform: translateX(30%);
+    box-shadow: 2px 0px 15px black;
+   
+}
+
+p {
+    padding: 10px;
+    text-indent: 15px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4b566a;
+    font-style: italic;
+    
+}
+
+.titulo {
+    font-size: 20px;
+    font-family: Montserrat;
+    color: #4b566a;
+    margin-top: 10px;
+    position: relative;
+    
+}
+
+.modelo {
+    position: relative;
+    float: right;
+    margin: 0 10px;
+}
+
+.foto1 {
+    position: relative;
+    float: right;
+    margin: 0 10px;
+}
+
+.linha1 hr {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.linha2 hr {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.foto2 {
+    position: relative;
+    float: left;
+    margin: 0 10px;
+}
+
+.foto3 {
+    position: relative;
+    float: right;
+    margin: 0 10px;
+}
+
+
+
+
+
+figcaption {    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #d2d2c1;
+    margin-top: 0;
+    opacity: 0;
+    padding-top: 5%;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+    
+}
+
+figcaption:hover {
+    opacity: .5;
+    color: #4b566a;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+
+footer {
+    position: absolute;
+    width: 910px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #c5c5b2;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p a {
+    text-decoration: none; 
+    color: #0a6e75;
+    font-weight: bold;
+}
+
+.contato {
+    width: 910px;  
+    background-color: #ddd;
+    position: absolute;
+    margin-top: 470px;
+    box-sizing: border-box;
+    transform: translateX(30%);
+    box-shadow: 2px 0px 15px black;
+   
+}
+
+.contato {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4b566a;
+    padding: 10px;
+}
+
+input[class="name"] {
+    border: 2px solid #0a6e75;
+    border-radius: 4px;
+    width: 200px;
+    height: 25px;
+}
+
+input[class="phone"] {
+    border: 2px solid #0a6e75;
+    border-radius: 4px;
+    width: 200px;
+    height: 25px;
+}
+
+textarea[class="message"] {
+    border: 2px solid #0a6e75;
+    border-radius: 4px;
+    width: 200px;
+    height: 100px;
+}
